@@ -13,7 +13,7 @@ public class HtmlToCsvConverter {
     public static void test() {
         try {
             // Parse HTML File
-            String htmlFile = "C:\\Users\\KanikaPathak\\Downloads\\My_Activity_Full.html";
+            String htmlFile = "C:\\Users\\KanikaPathak\\Downloads\\My_Activity_Full.html"; //sample html file attached in the project
             Document doc = Jsoup.parse(new java.io.File(htmlFile), "UTF-8");
             String bodyHtml = doc.body().html();
             System.out.println("HTML parsing successful");
